@@ -1,15 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Voice Agent App</title>
-  <link rel="manifest" href="manifest.json" />
-</head>
-<body>
-  <h1>🎙️ Voice Agent</h1>
-  <button id="start">Start Conversation</button>
-  <button id="stop">Stop</button>
-  <script src="app.js" type="module"></script>
-</body>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>無料版 Voice Agent</title>
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <h1>🎙️ Voice Agent（無料版）</h1>
+
+    <button id="start-free">無料で話す</button>
+
+    <hr />
+
+    <p>有償版のAIエージェントはこちら</p>
+    <button onclick="location.href='pro.html'">
+      ※ XX特化 営業サポート（有償）相談する
+    </button>
+    <p style="font-size: 0.8em; color: gray;">
+      ※ 月額980円 決済画面に進みます
+    </p>
+
+    <script src="app.js" type="module"></script>
+  </body>
 </html>
